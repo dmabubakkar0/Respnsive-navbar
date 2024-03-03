@@ -14,7 +14,7 @@
 
 body {
     background-color: #08164E;
-
+    font-family: "Montserrat", sans-serif;
 }
 
 /* ************ */
@@ -400,18 +400,428 @@ nav a {
 
 
 
+/* Our Services strat  */
+
+.Our_Services {
+    padding-top: 77px;
+    background-color: #052746;
+    max-width: 1792px;
+    min-height: 1376px;
+    margin-top: 50px;
+      
+}
+
+
+.services_heading {
+    text-align: center;
+    padding-bottom: 80px;
+    max-width: 945px;
+    
+    position: relative;
+    left: 88px;
+}
+
+.services_heading h6 {
+
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #A8FE3B;
+}
+.services_heading p {
+    font-size: 40px;
+     letter-spacing: -1px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+.services_content_1 {
+    max-width: 1200px;
+    min-height: 453px;
+     
+}
+.services_content_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+     
+}
+
+
+.card_main {
+    padding: 73px 50px;
+    background-color: #00113B;
+      
+}
+.card_main .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    bottom: 45px;
+}
+ 
+
+.icon_img {
+ 
+    width: 97px;
+    height: 97px;
+ background: #0080FF;
+ border-radius: 50%;
+
+}
+.icon_img img {
+    position: relative;
+    right: 0;
+    left: 31px;
+    top: 24px;
+}
+ 
+
+.card h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFF;
+    padding-top: 26px;
+}
+.card p {
+    
+font-size: 18px;
+line-height: 32px;
+font-weight: 400;
+color: #BFBFBF;
+
+}
 
 
 
 
+/* ********** */
+.icon_img_2 {
+ 
+    width: 97px;
+    height: 97px;
+ background: #FF7F2D;
+ border-radius: 50%;
+
+}
+
+
+
+.icon_img_2 img {
+    position: relative;
+    right: 0;
+    left: 31px;
+    top: 24px;
+}
+ 
+
+/* ********** */
 
 
 
 
+.icon_img_3 {
+ 
+    width: 97px;
+    height: 97px;
+ background: #4ADB61;
+ border-radius: 50%;
+
+}
+
+
+
+.icon_img_3 img {
+    position: relative;
+    right: 0;
+    left: 31px;
+    top: 24px;
+}
+/* ********** */
+
+ .icon_arow {
+    background: #444444;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+ position: relative;
+ top: 30px;
+ 
+ transition: all 0.3s ease;
+    
+   
+ }
+
+ .icon_arow .bx {
+    font-size: 24px;
+    position: relative;
+    left: 15px;
+    top: 16px;
+
+}
+.icon_arow:hover {
+    background-color: #0080FF;
+    
+}
+
+
+/* first content done  */
+ 
+
+
+ 
+.services_content_2 {
+    max-width: 1200px;
+    min-height: 453px;
+    margin-top: 18px;
+     
+}
+.services_content_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+     
+}
+
+
+.card_main_2 {
+    padding: 73px 69px;
+    background-color: #00113B;
+    position: relative;
+    left: 19px;
+      
+}
+.card_main_2 .card_2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    bottom: 45px;
+}
+ 
+
+.icon_img_4 {
+ 
+    width: 97px;
+    height: 97px;
+ background: #0080FF;
+ border-radius: 50%;
+
+}
+.icon_img_4 img {
+    position: relative;
+    right: 0;
+    left: 31px;
+    top: 24px;
+}
+ 
+
+.card_2 h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFF;
+    padding-top: 26px;
+}
+.card_2 p {
+    
+font-size: 18px;
+line-height: 32px;
+font-weight: 400;
+color: #BFBFBF;
+
+}
 
 
 
 
+/* ********** */
+.icon_img_5 {
+ 
+    width: 97px;
+    height: 97px;
+ background: #FF7F2D;
+ border-radius: 50%;
+
+}
+
+
+
+.icon_img_5 img {
+    position: relative;
+    right: 0;
+    left: 31px;
+    top: 24px;
+}
+ 
+
+/* ********** */
+
+
+
+
+.icon_img_6 {
+ 
+    width: 97px;
+    height: 97px;
+ background: #4ADB61;
+ border-radius: 50%;
+
+}
+
+
+
+.icon_img_6 img {
+    position: relative;
+    right: 0;
+    left: 31px;
+    top: 24px;
+}
+/* ********** */
+
+ .icon_arow {
+    background: #444444;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+ position: relative;
+ top: 30px;
+ 
+ transition: all 0.3s ease;
+    
+   
+ }
+
+ .icon_arow .bx {
+    font-size: 24px;
+    position: relative;
+    left: 15px;
+    top: 16px;
+
+}
+.icon_arow:hover {
+    background-color: #0080FF;
+    
+}
+
+
+/* Portfolio strat */
+
+.Portfolio {
+    background: #00113B;
+   
+    min-height: 100vh;
+    
+    
+}
+
+
+.Portfolio_heading {
+    max-width: 954px;
+    min-height: 97px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Portfolio_heading h6 {
+    font-size:20px ;
+    line-height: 28px;
+    font-weight: 600;
+    color: #4ADB61;
+}
+
+
+.Portfolio_heading p {
+    font-size:40px ;
+     letter-spacing: -1px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+
+/* *************** */
+
+.tab_section {
+    max-width: 1022px;
+    min-height: 42px;
+ position: relative;
+ top: 50px;
+    
+}
+
+.tab_content  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+
+.tab_content a {
+    font-size: 18px;
+color: #FFF;
+font-weight: 400;
+text-decoration: none;
+  
+}
+/* *********** first strat */
+
+.first_tab {
+     width: 72px;
+     height: 42px;
+     border: 1px solid #FFF;
+     text-align: center;
+
+}
+.tab_content .first_tab  a {
+    font-size: 18px;
+color:  #FFF;
+font-weight: 400;
+text-decoration: none;
+ position: relative;
+ top: 5px;
+  
+}
+
+.first_tab:hover {
+    background-color: #A8FE3B;
+    
+}
+
+.first_tab a:hover {
+color: #000000;
+
+}
+
+
+/* *************first end */
+
+/* ******************secend strat */
+
+.secend_tab{
+    width: 191px;
+    height: 42px;
+    border: 1px solid #FFF;
+    text-align: center;
+
+}
+
+.secend_tab a {
+    font-size: 18px;
+color:  #FFF;
+font-weight: 400;
+text-decoration: none;
+ position: relative;
+ top: 5px;
+  
+}
 
 
 
